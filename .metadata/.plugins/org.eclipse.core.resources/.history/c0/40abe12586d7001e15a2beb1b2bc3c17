@@ -1,0 +1,24 @@
+package com.temperature;
+
+import java.util.Scanner;
+
+public class TemperatureConversion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Temperature Value : ");
+		double temp = sc.nextDouble();
+		
+		System.out.println("Enter unit of measurement (C for Celsius, F for Fahrenheit, K for Kelvin): ");
+		String unit = sc.next().toUpperCase();
+		
+		double fahrenheit = 0;
+		double kelvin = 0;
+		double celsius = 0;
+
+	}
+
+}
